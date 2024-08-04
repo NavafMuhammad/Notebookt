@@ -8,8 +8,8 @@ A basic Flutter application for managing notes. This app allows users to add, ed
 ## Features
 
 - ___Add Note:___ Create a new note.
-- ___Edit Note:___ Modify existing notes.
-- ___Update Note:___ Save changes to existing notes.
+- ___GetAll Notes:___ Retrieve a list of notes.
+- ___Update Note:___ Edit and save changes to existing notes.
 - ___Delete Note:___ Remove notes.
 - ___Local Server Communication:___ Uses Dio for HTTP requests to interact with a local server.
 
