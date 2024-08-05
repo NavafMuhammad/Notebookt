@@ -87,9 +87,11 @@ If you want to contribute to the development of this app:
  
 ## Screenshots
 
-<img src="https://github.com/user-attachments/assets/e1e58cc7-d7aa-4692-b9d9-a6420a301cb1" width="200" height="400" />
+<img src="https://github.com/user-attachments/assets/4fd3ed36-ea45-4b24-b3de-103e160324b6" width="200" height="400" />
 
-<img src="https://github.com/user-attachments/assets/ce6bb9d8-199a-407b-bb6e-332e93bff253" width="200" height="400" />
+<img src="https://github.com/user-attachments/assets/61293e5f-1a5c-43ff-99bc-352362582eac" width="200" height="400" />
 
-<img src="https://github.com/user-attachments/assets/8e12db4e-f6c8-4898-b28f-612fa0374db8" width="200" height="400" />
+<img src="https://github.com/user-attachments/assets/c7f122d5-8c48-435c-b6c2-d61f5e819f94" width="200" height="400" />
+
+
 
