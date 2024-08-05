@@ -62,9 +62,9 @@ class ScreenAddNote extends StatelessWidget {
       child: Scaffold(
         key: _scaffoldKey,
         appBar: AppBar(
+          backgroundColor: kColorGrey800,
           elevation: 5,
           shadowColor: Colors.black,
-          backgroundColor: const Color.fromARGB(210, 2, 87, 129),
           title: Text(
             type.name,
             style: kAppbarTextStyle,
@@ -80,8 +80,7 @@ class ScreenAddNote extends StatelessWidget {
               controller: _titleEditingController,
               style: kText18,
               decoration: const InputDecoration(
-                filled: true,
-                fillColor: kTextFormFieldColor,
+               
                 border: UnderlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(10))),
                 hintText: 'Title',
@@ -96,8 +95,7 @@ class ScreenAddNote extends StatelessWidget {
                 expands: true,
                 controller: _contentEditingController,
                 decoration: const InputDecoration(
-                    filled: true,
-                    fillColor: kTextFormFieldColor,
+           
                     border: UnderlineInputBorder(
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     hintText: 'Content',

@@ -19,7 +19,7 @@ class ScreenAllNotes extends StatelessWidget {
         appBar: AppBar(
           elevation: 5,
           shadowColor: kColorBlack,
-          backgroundColor: const Color.fromARGB(210, 2, 87, 129),
+          backgroundColor: kColorGrey800,
           title: const Text(
             'Notebookt',
             style: kAppbarTextStyle,

@@ -26,9 +26,11 @@ class NoteItem extends StatelessWidget {
                 )));
       },
       child: Card(
+        borderOnForeground: true,
+        color: Colors.transparent,
         child: Container(
           decoration: BoxDecoration(
-            color: kColorWhite,
+            border: Border.all(color: Colors.grey),
             borderRadius: BorderRadius.circular(10),
           ),
           padding: const EdgeInsets.all(5),
@@ -42,19 +44,16 @@ class NoteItem extends StatelessWidget {
                       title,
                       overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.center,
-                      style: TextStyle(
-                          color: kColorGrey800,
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold),
+                      style:
+                        const  TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     ),
                   ),
                   IconButton(
                     onPressed: () {
                       NoteDB.instance.deleteNote(id);
                     },
-                    icon: Icon(
+                    icon: const Icon(
                       Icons.delete,
-                      color: kColorGrey800,
                     ),
                   )
                 ],
@@ -65,7 +64,6 @@ class NoteItem extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: kColorBlack,
                   fontSize: 15,
                 ),
               )
